@@ -52,12 +52,105 @@ let reMinutes = 60 - minutes
 
 console.log('Оствшиеся часы: ', reHours)
 console.log('Оставшиеся минут:', reMinutes)*/
+//======================//=========================//=============================//=========================//===========================//
+
+/*Задача на ветвление
+let age = prompt("Сколько вам лет?: ")
+
+if (age < 18){
+    alert('вы не совершеннолетний!')
+}
+if (age <= 65){
+    alert('вы совершеннолетеный!')
+}
+else {
+    alert('вы пожилой!');
+}*/
 
 
 
+/*let point = prompt("Enter your point: ")
+
+
+if (point >= 60){
+    alert('You done!')
+}
+else{alert('You not done. Try again')}*/
 
 
 
+/*let age = prompt('Enter yors years :')
+
+if (age < 18 ){
+    alert('are you a minor')
+}else if (age >= 18 && age <= 65){
+    alert ('you are an adult')
+}else{
+    alert ('you are old man')
+}*/
+
+
+/*let number = +prompt('Enter number:')
+
+if (number % 2 === 0 && number > 0){
+    alert(`${number}`, 'even')
+}else if (number % 2 === 0 && number < 0){
+    alert (`${number}`, 'negative even')
+}else if (number % 2 !== 0 && number > 0){
+    alert(`${number}, 'the number is not even and positive'`)
+}else if (number % 2 !== 0 && number < 0){
+    alert(`${number}, the number is odd and negative`)
+}*/
 
 
 
+/*let order = prompt('choose drink (coffe, tee, juce)')
+
+switch (order) {
+    case "coffe":
+        alert('you choose - coffe')
+        break
+    case "tee":
+        alert("you choose - tea")
+        break
+    case "juce":
+        alert('you choose - juce')
+        break
+}*/
+
+
+/*let dis = prompt('Enter distance: ')
+
+if (dis < 5){
+    alert(' you can go step')
+}else if (dis >= 5 && dis <= 20){
+    alert('you can take a bike')
+}else {
+    alert ('you can take bus')
+}*/
+
+//===========================//====================================//=================================//==========================//========
+
+// Задачи на тернальный оператор//
+/*let num1 = prompt('Enter number one: ')
+let num2 = prompt('Enter second number: ')
+
+let resul = num1 > num2 ? `${num1} больше` : num2 > num1 ? `${num2}, больше`: 'Числа равны'
+alert(resul)*/
+
+/*let point = prompt("Enter youre points: ")
+let rePoint = point >= 90 ? 'very cool!' : point >=70 && point < 90 ? 'cool' : 'normal'
+alert(rePoint)*/
+
+/*let number = prompt('Enter number: ')
+
+let reNumber = number % 2 === 0 ? 'even' : 'no even'
+alert(reNumber)*/
+
+/*let lang = prompt('Enter preferred language(Inglish, French): ')
+let reLang = lang === "Inglish" ? 'Hello' : 'Bonjour'
+alert(reLang)*/
+
+/*let month = prompt('Enter month: ')
+let reMonth = month === 'Январь' || month === 'Февраль' || month === 'Декабрь' ? 'Зимний периуд' : month === 'Март' || month === 'Апрель' || month === 'Май' ? 'Весна': month === 'Июнь' || month === 'Июль' || month === 'Август' ? "Лето" : 'Осень';
+alert(reMonth)*/
