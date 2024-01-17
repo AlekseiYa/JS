@@ -154,3 +154,89 @@ alert(reLang)*/
 /*let month = prompt('Enter month: ')
 let reMonth = month === 'Январь' || month === 'Февраль' || month === 'Декабрь' ? 'Зимний периуд' : month === 'Март' || month === 'Апрель' || month === 'Май' ? 'Весна': month === 'Июнь' || month === 'Июль' || month === 'Август' ? "Лето" : 'Осень';
 alert(reMonth)*/
+
+
+/*// Задания на обьекты
+let auto = {
+    brand: 'BMW',
+    agestart: 2013,
+    color: "black",
+    carStart: function () {
+        console.log('Двигатель запущен!')
+    }
+
+}
+auto.carStart()
+console.log(auto)
+
+autoduble = { ...auto, color: 'green' }
+console.log(autoduble.color)*/
+
+
+
+
+/*let user = {
+    name: 'Alex',
+    age: 23,
+    address: "Panel 5"
+}
+user.age = 32
+console.log(user.age)
+
+userDuble = {...user, address: 'Kirova 5'}
+console.log(userDuble.address)
+
+let fieldNames = Object.keys(user)
+console.log(fieldNames)*/
+
+
+/*let book = {
+    author : 'Marcus',
+    yearPubl : 1994,
+    title: 'program as a lifestyle'
+}
+
+ console.log(book)*/
+
+/*let animal = {
+   soundAnimal: function(){
+       console.log('Издать звук: РРРРРР')
+   }
+}
+animal.soundAnimal()*/
+
+/*let product = {
+    name: 'Pen',
+    price: 3,
+    quantity: 2
+}
+ product.quantity += 5
+
+ console.log(product.quantity)*/
+
+/*let computer ={
+   startComp: function(){
+       console.log("Компьютер запущен!")
+   }
+}
+computer.startComp()*/
+
+/*let fruit = {
+    clearFruit: function(){
+        console.log('Почистить')
+    }
+}
+fruit.clearFruit()*/
+
+/*let city = {
+    name: 'Puran',
+    population: 15000,
+    country: 'Fictional'
+}
+
+console.log(city)*/
+
+
+
+
+
